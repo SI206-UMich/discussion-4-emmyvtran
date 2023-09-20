@@ -27,7 +27,9 @@ class Rectangle():
     #       True if the width and height are positive numbers
     #       False otherwise
 
-    def verify_input():
+    def verify_input(width, height):
+        return width > 0 and height > 0
+
 
 
 
