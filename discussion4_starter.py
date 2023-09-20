@@ -38,7 +38,11 @@ class Rectangle():
     # It first verifies inputs and return "Invalid input" if they are invalid.
     # Otherwise, it returns the area of the rectangle.
 
-    # YOUR CODE HERE
+    def area(width, height):
+        if verify_input(width, height):
+            return width * height
+        else:
+            return "Invalid input"
 
 
 
