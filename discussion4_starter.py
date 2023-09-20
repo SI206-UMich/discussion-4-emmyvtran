@@ -51,7 +51,11 @@ class Rectangle():
     # It first verifies inputs and return "Invalid input" if they are invalid.
     # Otherwise, it returns the perimeter of the rectangle.
 
-    # YOUR CODE HERE
+    def perimeter(width, height):
+        if verify_input(width, height):
+            return 2 * (width + height)
+        else:
+            return "Invalid input"
     
 
 
